@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "original_source_sha256_matches": true,
+  "source_rows_retained_exactly": 16,
+  "source_numeric_fields_changed": 0,
+  "format_count_groups": {
+    "1": 8,
+    "2": 1,
+    "3": 2,
+    "4": 3,
+    "5": 1,
+    "7": 1
+  },
+  "all_seven_formats_area_um2": 53006.82818,
+  "all_fp_area_um2": 43098.04816,
+  "standalone_rebuild": "PASS: only plot.py and source_data.csv copied to a temporary directory",
+  "exported_formats": [
+    "PNG (300 dpi)",
+    "PDF (searchable text, vector bars)",
+    "SVG (editable text)"
+  ],
+  "pdf_page_inches": [
+    7.200000339084202,
+    4.25
+  ],
+  "minimum_text_at_7_2in_pt": 6.3,
+  "raster_images_in_pdf": 0,
+  "text_boxes_outside_pdf_page": 0,
+  "visual_qa": "Color and grayscale inspected; group headings, area values, LUT mark, and membership columns align without clipping.",
+  "scope": "No manuscript integration or venue-specific submission compliance audit.",
+  "independent_review": "PASS: visual layout, original rows, membership, group counts, and line-number provenance checked by a separate read-only reviewer."
+}

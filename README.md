@@ -130,6 +130,12 @@ These gains are reported against prior multi-precision compute-unit designs and 
 
 ![TensorForge area-versus-energy comparison](img/area_vs_energy_tensorforge_only_22nm_scaled_better_arrow.png)
 
+## Precision Support and Unit Area
+
+![Synthesized unit area grouped by supported-format count, with aligned precision-support matrix](figures/precision_area_sweep/precision_area_sweep.png)
+
+The 16 released dot-product configurations are shown at `dimK=32` and a requested synthesis clock of 1410 MHz. Bars show directly synthesized unit areas; the matrix identifies supported formats. Other design settings vary, so this is a comparison of released configurations rather than an isolated format-count experiment. See the [figure data, caption, and reproduction instructions](figures/precision_area_sweep/README.md), [vector PDF](figures/precision_area_sweep/precision_area_sweep.pdf), and [plotting script](figures/precision_area_sweep/plot.py).
+
 
 ## Released Artifact
 
