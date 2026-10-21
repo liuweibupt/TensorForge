@@ -134,7 +134,11 @@ These gains are reported against prior multi-precision compute-unit designs and 
 
 ![Synthesized unit area grouped by supported-format count, with aligned precision-support matrix](figures/precision_area_sweep/precision_area_sweep.png)
 
-The 16 released dot-product configurations are shown at `dimK=32` and a requested synthesis clock of 1410 MHz. Bars show directly synthesized unit areas; the matrix identifies supported formats. Other design settings vary, so this is a comparison of released configurations rather than an isolated format-count experiment. See the [figure data, caption, and reproduction instructions](figures/precision_area_sweep/README.md), [vector PDF](figures/precision_area_sweep/precision_area_sweep.pdf), and [plotting script](figures/precision_area_sweep/plot.py).
+The expanded catalogue covers all released input-precision configuration names: 31 selectable-mode implementations at `dimK=16`, four asymmetric FP×INT units, two additional implementations measured only at `dimK=32`, and four matched outer-product arrays including FP32. All use a requested synthesis clock of 1410 MHz. The matrix distinguishes FP8 E4M3/E5M2, FP6 E3M2/E2M3, Binary, and orthogonal MX/NV, LUT, and packed-FP4 capabilities. Other design settings vary, so this is a comparison of released configurations rather than an isolated format-count experiment. See the [figure data, caption, and reproduction instructions](figures/precision_area_sweep/README.md), [vector PDF](figures/precision_area_sweep/precision_area_sweep.pdf), and [plotting script](figures/precision_area_sweep/plot.py).
+
+![Area and precision-support matrices for all 511 realizable precision-family combinations](figures/precision_combinations/area_all_combinations.png)
+
+All **511 nonempty combinations** of nine input-precision families are also enumerated by composing whole measured units at `dimK=16`. Each area is the minimum component-area sum within the released catalogue for that exact supported-family union; multi-unit results exclude integration overhead and are not separate integrated synthesis measurements. FP8 and FP6 subformats stay coupled. Inspect the [nine-page detail PDF](figures/precision_combinations/area_combinations_detail.pdf), [all combination areas and source formulas](figures/precision_combinations/all_combinations.csv), or [reproduction and evidence boundaries](figures/precision_combinations/README.md).
 
 
 ## Released Artifact
@@ -346,4 +350,3 @@ When a queried design point does not have a directly released measurement, the e
 Beyond raw RTL and synthesis outputs, TensorForge releases **actionable design rules** extracted from the full synthesis campaign. These rules summarize how compute-unit organization, precision composition, and resource-sharing choices shape area and power efficiency across the explored design space.
 
 In other words, the repository is intended not only to reproduce numbers, but also to help researchers and hardware designers reuse the lessons behind those numbers.
-

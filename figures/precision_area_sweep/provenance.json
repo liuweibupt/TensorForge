@@ -1,36 +1,73 @@
 {
-  "source_file": "tensorforge_site_bundle/data/dp_training.csv",
-  "source_sha256": "3b53240602c99d0e6faab1fd019276f216fcf39abf317c8b02d2b895d17826df",
+  "source_reference": {
+    "type": "user-supplied repository screenshot",
+    "venue": "unspecified",
+    "status": "unknown",
+    "community": "hardware arithmetic"
+  },
+  "target": {
+    "venue": "unspecified",
+    "community": "hardware / architecture",
+    "placement": "landscape supplemental catalogue"
+  },
+  "source_hashes": {
+    "tensorforge_site_bundle/data/area_power_measurements.csv": "5e6b923376ef617839dd3be15b763ff9678388239cd3a753b7f97281231f9e81",
+    "tensorforge_site_bundle/data/dp_training.csv": "3b53240602c99d0e6faab1fd019276f216fcf39abf317c8b02d2b895d17826df"
+  },
   "selection": {
-    "dimK": 32,
-    "clk_mhz": 1410
+    "main_dimK": 16,
+    "clk_mhz": 1410,
+    "array_shape": "m8_n8",
+    "array_dimK": 1,
+    "additional_unit_dimK": 32
   },
-  "n_measurements": 16,
-  "area_unit": "um2 (project convention; original CSV area_unit is blank)",
-  "area_transform": "area_value / 1000",
-  "order": "format_count ascending, then area_value ascending",
-  "counts": {
-    "1": 8,
-    "2": 1,
-    "3": 2,
-    "4": 3,
-    "5": 1,
-    "7": 1
-  },
-  "format_order": [
+  "n_measurements": 31,
+  "n_asymmetric_units": 4,
+  "n_arrays": 4,
+  "n_K32_additional": 2,
+  "area_unit": "um2 (project convention; source area_unit blank)",
+  "area_transform": "area_value / 1000; no estimation, summation, or scaling",
+  "canonical_selection": "dp_training rows preferred; otherwise explicit midMat selector; aliases deduplicated; no minimum-area selection",
+  "physical_size_inches": [
+    14.4,
+    8.8
+  ],
+  "intended_placement_width_inches": 14.4,
+  "minimum_nominal_text_pt": 7,
+  "numeric_mode_order": [
+    "TF32",
     "FP16",
     "BF16",
-    "MXFP8",
-    "MXFP6",
-    "MXFP4",
+    "FP8 (E4M3)",
+    "FP8 (E5M2)",
+    "FP6 (E3M2)",
+    "FP6 (E2M3)",
+    "FP4 (E2M1)",
     "INT8",
-    "INT4"
+    "INT4",
+    "Binary (1 bit)"
   ],
-  "evidence_type": "direct measured unit area; no prediction or composition",
-  "reference_reuse": "grouped bars and aligned membership matrix; screenshot values not used",
-  "physical_size_inches": [
-    7.2,
-    4.25
+  "feature_order": [
+    "MX scaling",
+    "NV scaling",
+    "FP4 LUT",
+    "Packed 2×FP4"
   ],
-  "snapshot_sha256": "f4dffc90c068a87ec460c5455f586bdef6a850199346946c0fc2b71efb1a1046"
+  "numeric_mode_counts": {
+    "1": 15,
+    "2": 5,
+    "3": 1,
+    "4": 1,
+    "5": 2,
+    "6": 3,
+    "7": 2,
+    "9": 2
+  },
+  "evidence_boundary": "37 released dot-product configuration names:31 canonical K16 units,4 asymmetric K16 units,2 K32-only units; plus4 K1 arrays. No exhaustive integrated RTL subsets. Target clock is not timing closure.",
+  "snapshot_sha256": {
+    "source_data.csv": "9d6b48b6667343a16e92e5c129a5a7f336bc4399f09b386503f4c246213512ef",
+    "mixed_data.csv": "8c629d9782ebf851c32271e18f068d9ee4e508dae905365843e70af4407d2bb1",
+    "array_data.csv": "ee29337758d13a02abf64e7a210a23290cd86a9db2ed8bbf5bf344bde0306555",
+    "additional_data.csv": "7e2ca954765ac6253f6fa5c481b4534afc243e3096b795e033fa64cd858b87bc"
+  }
 }

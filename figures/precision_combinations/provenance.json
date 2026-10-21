@@ -1,0 +1,63 @@
+{
+  "component_snapshot_sha256": "110a22e62b76eab79cc7bd12f2e26cc0527c6beffa75a9afbc12e7e6c73605c6",
+  "families": [
+    "TF32",
+    "FP16",
+    "BF16",
+    "FP8",
+    "FP6",
+    "FP4",
+    "INT8",
+    "INT4",
+    "Binary"
+  ],
+  "component_count": 31,
+  "number_nonempty_unions": 511,
+  "cardinality_counts": {
+    "1": 9,
+    "2": 36,
+    "3": 84,
+    "4": 126,
+    "5": 126,
+    "6": 84,
+    "7": 36,
+    "8": 9,
+    "9": 1
+  },
+  "component_count_distribution": {
+    "1": 16,
+    "2": 68,
+    "3": 133,
+    "4": 148,
+    "5": 101,
+    "6": 39,
+    "7": 6
+  },
+  "objective": "Minimum sum of measured component areas subject to exact supported-family union",
+  "algorithm": "Acyclic dynamic program over all 512 OR-mask states; overlapping supported families allowed",
+  "tie_break": "Lexicographic tuple of unit indices ordered by component id; tolerance 1e-7 um2",
+  "constraints": [
+    "Only whole measured units at dimK16 / 1410MHz",
+    "No internal pruning or proportional discount",
+    "No unsupported extra numeric families",
+    "No asymmetric FPxINT units",
+    "No FP32 array-to-unit extrapolation"
+  ],
+  "not_measured": [
+    "Integrated composition area",
+    "Interconnect/mux/control overhead",
+    "Timing closure",
+    "Equal per-format throughput",
+    "Integrated power"
+  ],
+  "scope": "Finite released unit catalogue, not global RTL optimality or newly synthesized combinations",
+  "detail_pdf_inches": [
+    14.4,
+    5.6
+  ],
+  "overview_inches": [
+    28.8,
+    15.3
+  ],
+  "overview_y_axis": "All nine panels share 0–80 × 1000 um2; detail pages use individual labeled ranges"
+}

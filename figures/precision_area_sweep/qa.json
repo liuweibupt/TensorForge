@@ -1,32 +1,47 @@
 {
   "status": "PASS",
-  "original_source_sha256_matches": true,
-  "source_rows_retained_exactly": 16,
-  "source_numeric_fields_changed": 0,
-  "format_count_groups": {
-    "1": 8,
-    "2": 1,
-    "3": 2,
-    "4": 3,
-    "5": 1,
-    "7": 1
+  "n_main_units": 31,
+  "n_asymmetric_units": 4,
+  "n_additional_K32_units": 2,
+  "n_complete_arrays": 4,
+  "n_total_measurements": 41,
+  "distinct_dot_product_precision_tokens": 37,
+  "data_checks": [
+    "All 41 plotted measurements exactly match every original field at their recorded source lines.",
+    "All 37 distinct dot-product precision tokens across both entire source tables are represented: 31 canonical K16, 4 asymmetric K16, 2 K32-only.",
+    "FP32 input is shown in a separate matched K1 m8n8 array panel; no K16 FP32 dot unit is inferred.",
+    "The canonical component pool is 31 K16 selectable-mode units; asymmetric operands, K32-only units, and arrays are excluded."
+  ],
+  "numeric_mode_count_main": 11,
+  "feature_rows": 4,
+  "source_line_indexing": "1-based original CSV lines, header line=1",
+  "area_conversion": "area_um2 / 1000",
+  "measured_area_used_without_model_or_composition": true,
+  "all_bar_axes_zero_based": true,
+  "source_scope_panels_separated": true,
+  "pdf": {
+    "pages": 1,
+    "width_inches": 14.400000678168404,
+    "height_inches": 8.799999660915798,
+    "intended_placed_width_inches": 14.4,
+    "minimum_text_pt": 7.0,
+    "font_floor_pt": 5,
+    "raster_images": 0,
+    "searchable_text": true
   },
-  "all_seven_formats_area_um2": 53006.82818,
-  "all_fp_area_um2": 43098.04816,
-  "standalone_rebuild": "PASS: only plot.py and source_data.csv copied to a temporary directory",
-  "exported_formats": [
-    "PNG (300 dpi)",
-    "PDF (searchable text, vector bars)",
-    "SVG (editable text)"
+  "visual_inspection": {
+    "color": "Inspected full preview; no title, numeric-label, matrix-row, or panel collisions seen.",
+    "grayscale": "Inspected full preview; numeric squares and feature diamonds remain distinct, LUT hatching and combined-unit outlines retained."
+  },
+  "reproduction": "PASS: standalone temporary copy rebuilt normalized exports; four LF CSV snapshots and canonical_units.json byte-identical; generated SVG has no trailing whitespace.",
+  "limits": [
+    "No manuscript placement was requested; intended size is landscape supplemental 14.4 in wide, not a 7.2 in two-column figure.",
+    "Source reports synthesis target clock, not achieved timing. No uncertainty replicates are available."
   ],
-  "pdf_page_inches": [
-    7.200000339084202,
-    4.25
-  ],
-  "minimum_text_at_7_2in_pt": 6.3,
-  "raster_images_in_pdf": 0,
-  "text_boxes_outside_pdf_page": 0,
-  "visual_qa": "Color and grayscale inspected; group headings, area values, LUT mark, and membership columns align without clipping.",
-  "scope": "No manuscript integration or venue-specific submission compliance audit.",
-  "independent_review": "PASS: visual layout, original rows, membership, group counts, and line-number provenance checked by a separate read-only reviewer."
+  "export_hygiene": {
+    "csv_line_endings": "LF",
+    "svg_trailing_whitespace": false,
+    "canonical_units_json_changed": false,
+    "snapshot_hashes_verified": true
+  }
 }

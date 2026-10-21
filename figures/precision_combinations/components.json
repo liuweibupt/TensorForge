@@ -1,0 +1,444 @@
+[
+  {
+    "id": "U01",
+    "precision_set": "4",
+    "supported_families": [
+      "Binary"
+    ],
+    "area_um2": 184.142001,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 4063,
+    "variant": "Binary_dimK16_noMX_norm4_accINT32_outINT32_midMat0",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U02",
+    "precision_set": "8",
+    "supported_families": [
+      "Binary"
+    ],
+    "area_um2": 184.142001,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 4070,
+    "variant": "Binary_dimK16_noMX_norm8_accINT32_outINT32_midMat0",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U03",
+    "precision_set": "INT4",
+    "supported_families": [
+      "INT4"
+    ],
+    "area_um2": 2013.998003,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 459,
+    "variant": "INT4_dimK16_noMX_norm4_accINT32_outINT32_midMat0",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U04",
+    "precision_set": "INT8",
+    "supported_families": [
+      "INT8"
+    ],
+    "area_um2": 4022.900013,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 465,
+    "variant": "INT8_dimK16_noMX_norm8_accINT32_outINT32_midMat0",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U05",
+    "precision_set": "FP4LUT",
+    "supported_families": [
+      "FP4"
+    ],
+    "area_um2": 4717.230009,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 3750,
+    "variant": "FP4LUT_dimK16_noMXnoNV_normFP32_accFP32_outFP32_midMat9",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U06",
+    "precision_set": "MXFP4LUT",
+    "supported_families": [
+      "FP4"
+    ],
+    "area_um2": 4873.148007,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 553,
+    "variant": "MXFP4LUT_dimK16_withMXnoNV_normFP32_accFP32_outFP32_midMat9",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U07",
+    "precision_set": "NVFP4LUT",
+    "supported_families": [
+      "FP4"
+    ],
+    "area_um2": 5530.336004,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 3818,
+    "variant": "NVFP4LUT_dimK16_noMXwithNV_normFP32_accFP32_outFP32_midMat9",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U08",
+    "precision_set": "MXNVFP4LUT",
+    "supported_families": [
+      "FP4"
+    ],
+    "area_um2": 5798.464007,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 3804,
+    "variant": "MXNVFP4LUT_dimK16_withMXwithNV_normFP32_accFP32_outFP32_midMat9",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U09",
+    "precision_set": "FP4",
+    "supported_families": [
+      "FP4"
+    ],
+    "area_um2": 6232.604019,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 3764,
+    "variant": "FP4_dimK16_noMXnoNV_normFP32_accFP32_outFP32_midMat9",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U10",
+    "precision_set": "MXFP4",
+    "supported_families": [
+      "FP4"
+    ],
+    "area_um2": 6540.030022,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 474,
+    "variant": "MXFP4_dimK16_withMXnoNV_normFP32_accFP32_outFP32_midMat9",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U11",
+    "precision_set": "NVFP4",
+    "supported_families": [
+      "FP4"
+    ],
+    "area_um2": 7032.970009,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 3825,
+    "variant": "NVFP4_dimK16_noMXwithNV_normFP32_accFP32_outFP32_midMat9",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U12",
+    "precision_set": "MXNVFP4",
+    "supported_families": [
+      "FP4"
+    ],
+    "area_um2": 7312.074012,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 3811,
+    "variant": "MXNVFP4_dimK16_withMXwithNV_normFP32_accFP32_outFP32_midMat9",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U13",
+    "precision_set": "BF16",
+    "supported_families": [
+      "BF16"
+    ],
+    "area_um2": 12770.08603,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 482,
+    "variant": "BF16_dimK16_noMXnoNV_normFP32_accFP32_outFP32_midMat26",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U14",
+    "precision_set": "FP16",
+    "supported_families": [
+      "FP16"
+    ],
+    "area_um2": 14520.75805,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 478,
+    "variant": "FP16_dimK16_noMXnoNV_normFP32_accFP32_outFP16FP32_midMat26",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U15",
+    "precision_set": "TF32",
+    "supported_families": [
+      "TF32"
+    ],
+    "area_um2": 14635.712046,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 3688,
+    "variant": "TF32_dimK16_noMX_normFP32_accFP32_outFP32_midMat26",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U16",
+    "precision_set": "INT8INT4",
+    "supported_families": [
+      "INT8",
+      "INT4"
+    ],
+    "area_um2": 5318.460015,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 470,
+    "variant": "INT8INT4_dimK16_noMX_norm8_accINT32_outINT32_midMat0",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U17",
+    "precision_set": "FP6",
+    "supported_families": [
+      "FP6"
+    ],
+    "area_um2": 8431.822024,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 4033,
+    "variant": "FP6_dimK16_noMXnoNV_normFP32_accFP32_outFP32_midMat17",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U18",
+    "precision_set": "MXFP6",
+    "supported_families": [
+      "FP6"
+    ],
+    "area_um2": 8576.274014,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 488,
+    "variant": "MXFP6_dimK16_withMXnoNV_normFP32_accFP32_outFP32_midMat17",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U19",
+    "precision_set": "FP8",
+    "supported_families": [
+      "FP8"
+    ],
+    "area_um2": 9658.390026,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 4036,
+    "variant": "FP8_dimK16_noMXnoNV_normFP32_accFP32_outFP32_midMat22",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U20",
+    "precision_set": "MXFP8",
+    "supported_families": [
+      "FP8"
+    ],
+    "area_um2": 9951.214032,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 489,
+    "variant": "MXFP8_dimK16_withMXnoNV_normFP32_accFP32_outFP32_midMat22",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U21",
+    "precision_set": "FP16INT8INT4",
+    "supported_families": [
+      "FP16",
+      "INT8",
+      "INT4"
+    ],
+    "area_um2": 20027.18205,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 448,
+    "variant": "FP16INT8INT4_dimK16_noMX_normFP32_accFP32_outFP32_midMat26",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U22",
+    "precision_set": "FP16BF16INT8INT4",
+    "supported_families": [
+      "FP16",
+      "BF16",
+      "INT8",
+      "INT4"
+    ],
+    "area_um2": 20532.27406,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 447,
+    "variant": "FP16BF16INT8INT4_dimK16_noMX_normFP32_accFP32_outFP32_midMat26",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U23",
+    "precision_set": "FP8FP6FP4",
+    "supported_families": [
+      "FP8",
+      "FP6",
+      "FP4"
+    ],
+    "area_um2": 9734.732022,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 4038,
+    "variant": "FP8FP6FP4_dimK16_noMXnoNV_normFP32_accFP32_outFP32_midMat22",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U24",
+    "precision_set": "MXFP8FP62FP4",
+    "supported_families": [
+      "FP8",
+      "FP6",
+      "FP4"
+    ],
+    "area_um2": 12328.89004,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 518,
+    "variant": "MXFP8FP62FP4_dimK16_withMXnoNV_normFP32_accFP32_outFP32_midMat26",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U25",
+    "precision_set": "BF16FP8FP6FP4",
+    "supported_families": [
+      "BF16",
+      "FP8",
+      "FP6",
+      "FP4"
+    ],
+    "area_um2": 20589.01608,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 3494,
+    "variant": "BF16FP8FP6FP4_dimK16_noMX_normFP32_accFP32_outFP32_midMat26",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U26",
+    "precision_set": "MXBF16FP8FP6FP4",
+    "supported_families": [
+      "BF16",
+      "FP8",
+      "FP6",
+      "FP4"
+    ],
+    "area_um2": 20679.96007,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 453,
+    "variant": "MXBF16FP8FP6FP4_dimK16_withMX_normFP32_accFP32_outFP32_midMat26",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U27",
+    "precision_set": "MXFP16FP8FP6FP4",
+    "supported_families": [
+      "FP16",
+      "FP8",
+      "FP6",
+      "FP4"
+    ],
+    "area_um2": 23211.49609,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 456,
+    "variant": "MXFP16FP8FP6FP4_dimK16_withMX_normFP32_accFP32_outFP32_midMat26",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U28",
+    "precision_set": "FP16BF16FP8FP6FP4",
+    "supported_families": [
+      "FP16",
+      "BF16",
+      "FP8",
+      "FP6",
+      "FP4"
+    ],
+    "area_um2": 23632.798092,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 3542,
+    "variant": "FP16BF16FP8FP6FP4_dimK16_noMX_normFP32_accFP32_outFP32_midMat26",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U29",
+    "precision_set": "MXFP16BF16FP8FP6FP4",
+    "supported_families": [
+      "FP16",
+      "BF16",
+      "FP8",
+      "FP6",
+      "FP4"
+    ],
+    "area_um2": 23868.97809,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 455,
+    "variant": "MXFP16BF16FP8FP6FP4_dimK16_withMX_normFP32_accFP32_outFP32_midMat26",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U30",
+    "precision_set": "FP16BF16FP8FP6FP4INT8INT4",
+    "supported_families": [
+      "FP16",
+      "BF16",
+      "FP8",
+      "FP6",
+      "FP4",
+      "INT8",
+      "INT4"
+    ],
+    "area_um2": 28587.482101,
+    "source_file": "tensorforge_site_bundle/data/area_power_measurements.csv",
+    "source_row": 3541,
+    "variant": "FP16BF16FP8FP6FP4INT8INT4_dimK16_noMX_normFP32_accFP32_outFP32_midMat26",
+    "dimK": 16,
+    "clk_mhz": 1410
+  },
+  {
+    "id": "U31",
+    "precision_set": "MXFP16BF16FP8FP6FP4INT8INT4",
+    "supported_families": [
+      "FP16",
+      "BF16",
+      "FP8",
+      "FP6",
+      "FP4",
+      "INT8",
+      "INT4"
+    ],
+    "area_um2": 29065.62411,
+    "source_file": "tensorforge_site_bundle/data/dp_training.csv",
+    "source_row": 454,
+    "variant": "MXFP16BF16FP8FP6FP4INT8INT4_dimK16_withMX_normFP32_accFP32_outFP32_midMat26",
+    "dimK": 16,
+    "clk_mhz": 1410
+  }
+]

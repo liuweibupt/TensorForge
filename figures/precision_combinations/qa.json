@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "number_nonempty_combinations": 511,
+  "unique_supported_family_unions": 511,
+  "family_cardinality_counts": {
+    "1": 9,
+    "2": 36,
+    "3": 84,
+    "4": 126,
+    "5": 126,
+    "6": 84,
+    "7": 36,
+    "8": 9,
+    "9": 1
+  },
+  "all_31_components_match_original_source_rows": true,
+  "all_components_dimK": 16,
+  "clock_target_mhz": 1410,
+  "all_511_costs_match_independent_Dijkstra_solver": true,
+  "overlapping_shared_unit_toy_optimum_checked": true,
+  "single_measured_unit_results": 16,
+  "derived_multi_unit_results": 495,
+  "standalone_rebuild": "PASS: only plot.py and components.json; all CSV rows and provenance byte-identical",
+  "overview_pdf_text_audit": {
+    "pdf": "figures/precision_combinations/area_all_combinations.pdf",
+    "status": "PASS",
+    "minimum_required_pt": 5.0,
+    "placed_width_in": 28.8,
+    "pages": [
+      {
+        "page": 1,
+        "width_in": 28.800001,
+        "height_in": 15.3,
+        "placement_scale": 1.0,
+        "text_runs": 149,
+        "nonspace_characters": 1306,
+        "minimum_placed_pt": 8.5,
+        "raster_images": 0
+      }
+    ],
+    "undersized_runs": 0,
+    "violation_samples": [],
+    "pages_without_extractable_text": [],
+    "limits": "Extractable text only; inspect raster/outlined labels and overlaps visually."
+  },
+  "detail_pdf_text_audit": {
+    "pdf": "figures/precision_combinations/area_combinations_detail.pdf",
+    "status": "PASS",
+    "minimum_required_pt": 5.0,
+    "placed_width_in": 14.4,
+    "pages": [
+      {
+        "page": 1,
+        "width_in": 14.400001,
+        "height_in": 5.6,
+        "placement_scale": 1.0,
+        "text_runs": 37,
+        "nonspace_characters": 358,
+        "minimum_placed_pt": 7.0,
+        "raster_images": 0
+      },
+      {
+        "page": 2,
+        "width_in": 14.400001,
+        "height_in": 5.6,
+        "placement_scale": 1.0,
+        "text_runs": 91,
+        "nonspace_characters": 577,
+        "minimum_placed_pt": 7.0,
+        "raster_images": 0
+      },
+      {
+        "page": 3,
+        "width_in": 14.400001,
+        "height_in": 5.6,
+        "placement_scale": 1.0,
+        "text_runs": 187,
+        "nonspace_characters": 966,
+        "minimum_placed_pt": 7.0,
+        "raster_images": 0
+      },
+      {
+        "page": 4,
+        "width_in": 14.400001,
+        "height_in": 5.6,
+        "placement_scale": 1.0,
+        "text_runs": 270,
+        "nonspace_characters": 1304,
+        "minimum_placed_pt": 7.0,
+        "raster_images": 0
+      },
+      {
+        "page": 5,
+        "width_in": 14.400001,
+        "height_in": 5.6,
+        "placement_scale": 1.0,
+        "text_runs": 270,
+        "nonspace_characters": 1305,
+        "minimum_placed_pt": 7.0,
+        "raster_images": 0
+      },
+      {
+        "page": 6,
+        "width_in": 14.400001,
+        "height_in": 5.6,
+        "placement_scale": 1.0,
+        "text_runs": 187,
+        "nonspace_characters": 970,
+        "minimum_placed_pt": 7.0,
+        "raster_images": 0
+      },
+      {
+        "page": 7,
+        "width_in": 14.400001,
+        "height_in": 5.6,
+        "placement_scale": 1.0,
+        "text_runs": 91,
+        "nonspace_characters": 586,
+        "minimum_placed_pt": 7.0,
+        "raster_images": 0
+      },
+      {
+        "page": 8,
+        "width_in": 14.400001,
+        "height_in": 5.6,
+        "placement_scale": 1.0,
+        "text_runs": 36,
+        "nonspace_characters": 367,
+        "minimum_placed_pt": 7.0,
+        "raster_images": 0
+      },
+      {
+        "page": 9,
+        "width_in": 14.400001,
+        "height_in": 5.6,
+        "placement_scale": 1.0,
+        "text_runs": 21,
+        "nonspace_characters": 304,
+        "minimum_placed_pt": 7.0,
+        "raster_images": 0
+      }
+    ],
+    "undersized_runs": 0,
+    "violation_samples": [],
+    "pages_without_extractable_text": [],
+    "limits": "Extractable text only; inspect raster/outlined labels and overlaps visually."
+  },
+  "text_boxes_outside_pdf_pages": 0,
+  "visual_qa": "Color and grayscale overview and dense 126-column detail inspected; no overlap or clipping. Read detail PDF at 14.4-inch width.",
+  "overview_common_y_axis": "All nine panels share 0–80 × 1000 um2; detail pages use individual labeled ranges",
+  "independent_review": "PASS: separate reviewer checked source rows, all sums/unions, finite catalogue optimization boundary, and dense rendered panels.",
+  "final_reproduction": "PASS: normalized SVG/CSV output script rebuilt standalone; CSV and provenance byte-identical"
+}
